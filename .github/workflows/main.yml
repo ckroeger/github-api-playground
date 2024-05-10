@@ -19,7 +19,7 @@ jobs:
         node-version: '14'
 
     - name: Install dependencies
-      run: npm ci
+      run: npm install axios
 
     - name: Run script
       run: node all-public-repos.js users/ckroeger

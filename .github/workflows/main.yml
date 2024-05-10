@@ -3,7 +3,7 @@ name: Run script daily
 on:
   schedule:
     - cron: '0 3 * * *'
-  workflow_dispatch:  # Manueller Trigger hinzugefügt
+  workflow_dispatch:  # manual trigger
 
 jobs:
   run-script:
@@ -22,4 +22,12 @@ jobs:
       run: npm install axios
 
     - name: Run script
-      run: node all-public-repos.js users/ckroeger
+      run: node all-public-repos_and-write.js users/ckroeger
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git commit -m "updated repo output at $(date +'%d.%m.%Y %H:%M')"
+        git push

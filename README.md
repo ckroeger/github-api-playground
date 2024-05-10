@@ -5,3 +5,7 @@ A small playground to play with the github-api
 ```shell
 npm install axios
 ```
+
+## Output
+<!-- start -->
+<!-- end -->

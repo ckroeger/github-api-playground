@@ -3,6 +3,10 @@
 A small playground to play with the github-api
 
 <!-- scripts_start -->
+* [all-public-repos.js](./all-public-repos.js)  Creates a output of all public repos 👉 Usage: node all-public-repos_and-write.js "users/ckroeger"
+* [all-public-repos_and-write.js](./all-public-repos_and-write.js)  Creates a list of all public repos and add them to README.md 👉 Usage: node all-public-repos_and-write.js "users/ckroeger"
+* [js-files-list.js](./js-files-list.js)  Creates a markdown list of all js-files in dir 👉 Usage: node js-files-list.js
+
 <!-- scripts_end -->
 
 # Sources
@@ -18,7 +22,6 @@ npm install axios
 ## Output
 
 <!-- start -->
-
 ```text
 Repo ID: 599682253
 Repo URL: https://api.github.com/repos/ckroeger/abigail-bloom-portolio-bokoko33
@@ -142,5 +145,4 @@ Repo Name: whatismyip
 ----------------------
 Total repos: 30
 ```
-
 <!-- end -->

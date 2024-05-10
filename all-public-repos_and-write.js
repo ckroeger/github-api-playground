@@ -38,7 +38,7 @@ async function printRepoData() {
     output += `Total repos: ${reposData.length}\n`;
 
     let readme = fs.readFileSync('README.md', 'utf8');
-    readme = readme.replace(/<!-- start -->([\s\S]*?)<!-- end -->/, `\`\`\`text\n<!-- start -->\n${output}\`\`\`\n<!-- end -->`);
+    readme = readme.replace(/<!-- start -->([\s\S]*?)<!-- end -->/, `<!-- start -->\n\`\`\`text\n${output}\`\`\`\n<!-- end -->`);
     fs.writeFileSync('README.md', readme);
 }
 

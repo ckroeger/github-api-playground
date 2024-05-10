@@ -22,7 +22,7 @@ jobs:
       run: npm install axios
 
     - name: Add all list of all js to README
-      run: node js.files-list.js
+      run: node js-files-list.js
 
     - name: Add all public repos to README
       run: node all-public-repos_and-write.js users/ckroeger

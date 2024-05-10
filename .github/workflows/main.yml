@@ -29,7 +29,10 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add README.md package.json package-lock.json
-        git commit -m "updated repo output at $(date +'%d.%m.%Y %H:%M')"
-        git push origin HEAD:main
+        if [[ $(git diff --staged) ]]; then
+          git commit -m "updated repo output at $(date +'%d.%m.%Y %H:%M')"
+          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/ckroeger/github-api-playground.git
+          git push origin HEAD:main
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

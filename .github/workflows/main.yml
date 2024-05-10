@@ -30,7 +30,8 @@ jobs:
         git config --local user.name "GitHub Action"
         git add README.md
         git commit -m "updated repo output at $(date +'%d.%m.%Y %H:%M')"
-        git remote set-url --push origin https://ckroeger:$GITHUB_TOKEN@github.com/ckroeger/github-api-playground.git
+        git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/ckroeger/github-api-playground.git
+        
         git push HEAD:main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -40,5 +40,6 @@ async function printRepoData() {
     let readme = fs.readFileSync('README.md', 'utf8');
     readme = readme.replace(/<!-- start -->([\s\S]*?)<!-- end -->/, `<!-- start -->\n${output}<!-- end -->`);
     fs.writeFileSync('README.md', readme);
+}
 
 printRepoData();

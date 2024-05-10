@@ -1,3 +1,4 @@
+// Creates a output of all public repos 👉 Usage: node all-public-repos_and-write.js "users/ckroeger"
 const axios = require('axios');
 
 // example

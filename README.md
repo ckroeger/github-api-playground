@@ -1,13 +1,24 @@
 # github-api-playground
+
 A small playground to play with the github-api
 
+<!-- scripts_start -->
+<!-- scripts_end -->
+
+# Sources
+
+* [REST API endpoints for repositories - GitHub Docs](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-organization-repositories)
+
 ## Required libraries
+
 ```shell
 npm install axios
 ```
 
 ## Output
+
 <!-- start -->
+
 ```text
 Repo ID: 599682253
 Repo URL: https://api.github.com/repos/ckroeger/abigail-bloom-portolio-bokoko33
@@ -131,4 +142,5 @@ Repo Name: whatismyip
 ----------------------
 Total repos: 30
 ```
+
 <!-- end -->

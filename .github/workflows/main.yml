@@ -21,7 +21,10 @@ jobs:
     - name: Install dependencies
       run: npm install axios
 
-    - name: Run script
+    - name: Add all list of all js to README
+      run: node js.files-list.js
+
+    - name: Add all public repos to README
       run: node all-public-repos_and-write.js users/ckroeger
 
     - name: Commit and push changes

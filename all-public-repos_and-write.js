@@ -1,3 +1,4 @@
+// Creates a list of all public repos and add them to README.md 👉 Usage: node all-public-repos_and-write.js "users/ckroeger"
 const axios = require('axios');
 const fs = require('fs');
 

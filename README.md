@@ -19,7 +19,7 @@ A small playground to play with the github-api
 npm install axios
 ```
 ## Ideas
-* change repo-output to markdown-links
+* change repo-output to markdown-links, order by creation
 * create chart with number of public-repos
 * create chart with number of followers
 

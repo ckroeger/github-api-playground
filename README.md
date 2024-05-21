@@ -111,6 +111,10 @@ Repo ID: 760332216
 Repo URL: https://api.github.com/repos/ckroeger/mapping_test_utils
 Repo Name: mapping_test_utils
 ----------------------
+Repo ID: 803237540
+Repo URL: https://api.github.com/repos/ckroeger/newman-manager-client
+Repo Name: newman-manager-client
+----------------------
 Repo ID: 777843235
 Repo URL: https://api.github.com/repos/ckroeger/object-vis-playground
 Repo Name: object-vis-playground
@@ -142,10 +146,6 @@ Repo Name: simple-todo-react-app
 Repo ID: 685555328
 Repo URL: https://api.github.com/repos/ckroeger/spring-boot-template-repo
 Repo Name: spring-boot-template-repo
-----------------------
-Repo ID: 93323256
-Repo URL: https://api.github.com/repos/ckroeger/test
-Repo Name: test
 ----------------------
 Total repos: 30
 ```

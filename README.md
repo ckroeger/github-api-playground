@@ -115,6 +115,10 @@ Repo ID: 803237540
 Repo URL: https://api.github.com/repos/ckroeger/newman-manager-client
 Repo Name: newman-manager-client
 ----------------------
+Repo ID: 817662884
+Repo URL: https://api.github.com/repos/ckroeger/nginx-reverse-proxy-example
+Repo Name: nginx-reverse-proxy-example
+----------------------
 Repo ID: 777843235
 Repo URL: https://api.github.com/repos/ckroeger/object-vis-playground
 Repo Name: object-vis-playground
@@ -142,10 +146,6 @@ Repo Name: SAY
 Repo ID: 798922043
 Repo URL: https://api.github.com/repos/ckroeger/simple-todo-react-app
 Repo Name: simple-todo-react-app
-----------------------
-Repo ID: 685555328
-Repo URL: https://api.github.com/repos/ckroeger/spring-boot-template-repo
-Repo Name: spring-boot-template-repo
 ----------------------
 Total repos: 30
 ```

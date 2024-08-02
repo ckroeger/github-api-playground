@@ -3,29 +3,37 @@
 A small playground to play with the github-api
 
 <!-- scripts_start -->
-* [all-public-repos.js](./all-public-repos.js)  Creates a output of all public repos 👉 Usage: node all-public-repos_and-write.js "users/ckroeger"
-* [all-public-repos_and-write.js](./all-public-repos_and-write.js)  Creates a list of all public repos and add them to README.md 👉 Usage: node all-public-repos_and-write.js "users/ckroeger"
-* [js-files-list.js](./js-files-list.js)  Creates a markdown list of all js-files in dir 👉 Usage: node js-files-list.js
+
+- [all-public-repos.js](./all-public-repos.js) Creates a output of all public repos
+  - 👉 Usage: `node all-public-repos.js "users/ckroeger"`
+- [all-public-repos_and-write.js](./all-public-repos_and-write.js) Creates a list of all public repos and add them to README.md
+  - 👉 Usage: `node all-public-repos_and-write.js "users/ckroeger"`
+- [js-files-list.js](./js-files-list.js) Creates a markdown list of all js-files in dir
+- 👉 Usage: `node js-files-list.js`
 
 <!-- scripts_end -->
 
 # Sources
 
-* [REST API endpoints for repositories - GitHub Docs](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-organization-repositories)
+- [REST API endpoints for repositories - GitHub Docs](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-organization-repositories)
 
 ## Required libraries
 
 ```shell
 npm install axios
 ```
+
 ## Ideas
-* change repo-output to markdown-links, order by creation
-* create chart with number of public-repos
-* create chart with number of followers
+
+- change repo-output to markdown-links
+- ✅ order by creation
+- create chart with number of public-repos
+- create chart with number of followers
 
 ## Output
 
 <!-- start -->
+
 ```text
 Repo ID: 599682253
 Repo URL: https://api.github.com/repos/ckroeger/abigail-bloom-portolio-bokoko33
@@ -149,4 +157,5 @@ Repo Name: qrservice
 ----------------------
 Total repos: 30
 ```
+
 <!-- end -->

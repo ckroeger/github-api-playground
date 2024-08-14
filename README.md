@@ -30,6 +30,10 @@ npm install axios
 
 <!-- start -->
 ```text
+Repo ID: 841915241
+Repo URL: https://github.com/users/ckroeger/leaflet-maps-made-easy
+Repo Name: leaflet-maps-made-easy
+----------------------
 Repo ID: 840602527
 Repo URL: https://github.com/users/ckroeger/proxy-recorder
 Repo Name: proxy-recorder
@@ -198,6 +202,6 @@ Repo ID: 93322909
 Repo URL: https://github.com/users/ckroeger/bookmarks
 Repo Name: bookmarks
 ----------------------
-Total repos: 42
+Total repos: 43
 ```
 <!-- end -->
